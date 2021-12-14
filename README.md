@@ -1,4 +1,4 @@
-# iDECODe: In-Distribution Equivariance for Conformal Out-of-Distribution Detection
+# iDECODe: In-Distribution Equivariance for Conformal Out-of-Distribution Detection, AAAI 2022
 1) Link to download the code - https://drive.google.com/file/d/1NhqSWYYUU_GfgvxyFX7HjiqroEXEMPUk/view
 2) The code is in "iDECODe-main.zip".
 3) unzip iDECODe-main.zip
