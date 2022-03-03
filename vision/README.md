@@ -1,4 +1,4 @@
-# OOD and adversarial detection on vision
+# OOD and adversarial detection on vision dataset
 
   This code is build on top of AVT model code from qi et al. 2019's code for AVT model, https://github.com/maple-research-lab/AVT-pytorch
 
