@@ -13,9 +13,9 @@
     sh scripts/extract.sh
 
 ### Trained models
-   mkdir ./_workspace/models
-   mv ../../audio_models.zip ./_workspace/models
-   unzip ./_workspace/models/audio_models.zip -d  ./_workspace/models
+    mkdir ./_workspace/models
+    mv ../../audio_models.zip ./_workspace/models
+    unzip ./_workspace/models/audio_models.zip -d  ./_workspace/models
 
 ### Generate results for Table 3:
   # For ICAD
