@@ -1,7 +1,7 @@
-### Making directory for CIFAR10 dataset
+### Making directory for CIFAR-10 dataset
      mkdir dataset
 
-### Download trained models on one-class of CIFAR-10 - 
+### Download trained models on one-class of CIFAR-10
 https://drive.google.com/file/d/1P2JJAj-ZhKi_z4jiTY6lWhS8cx8bGDpC/view?usp=sharing
     
     mv ../../../saved_models.zip .
