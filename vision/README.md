@@ -7,12 +7,12 @@
     conda activate vision
     pip install -r requirements.txt
     
-## SOTA results (Table 2 and 3)
+## SOTA results (Table 2)
 
     cd SOTA 
     Follow instructions in SOTA/README.md
     
-## Ablation and adversarial results (Table 1, 5 and Figures 1 and 2)    
+## Ablation and adversarial results (Tables 1, 5 and Figures 1, 2, 3, 4)    
     
     cd ablation_and_adversarial  
     Follow instructions in ablation_and_adversarial/README.md
