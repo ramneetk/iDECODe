@@ -7,4 +7,5 @@
     conda activate vision
     pip install -r requirements.txt
     cd to SOTA for generating SOTA results by following instructions in SOTA/README.md
-    cd to ablation_and_adversarial for generating ablation_and_adversarial results by following instructions in ablation_and_adversarial/README.md
+    cd to ablation_and_adversarial for generating ablation_and_adversarial results by 
+    following instructions in ablation_and_adversarial/README.md
