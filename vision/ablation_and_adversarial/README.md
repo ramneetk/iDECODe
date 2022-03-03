@@ -46,7 +46,7 @@
     python fnr_at_fixed_epsilon.py --net ./cifar10.pth --cuda --gpu 0  --n 5 --trials 5 --cal_set_size_trial 1000 --file_name 1000.pdf
     python fnr_at_fixed_epsilon.py --net ./cifar10.pth --cuda --gpu 0  --n 5 --trials 5 --cal_set_size_trial 2000 --file_name 2000.pdf
 
-### Generating results on adversarial samples, (Table 4)
+### Generating results on adversarial samples, (Table 5)
     python check_OOD.py --cuda --gpu 0 --net ./cifar10.pth --n 5 --ood_dataset adv_cifar10 --proper_train_size 45000 --adv_data_root adversarial_data/ResNet34/adv_data_ResNet34_cifar10_FGSM.pth
     python check_OOD.py --cuda --gpu 0 --net ./cifar10.pth --n 5 --ood_dataset adv_cifar10 --proper_train_size 45000 --adv_data_root adversarial_data/ResNet34/adv_data_ResNet34_cifar10_BIM.pth
     python check_OOD.py --cuda --gpu 0 --net ./cifar10.pth --n 5 --ood_dataset adv_cifar10 --proper_train_size 45000 --adv_data_root adversarial_data/ResNet34/adv_data_ResNet34_cifar10_DeepFool.pth
