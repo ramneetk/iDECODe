@@ -1,10 +1,10 @@
 ### Making directory for CIFAR-10 dataset
      mkdir dataset
 
-### Download trained models on one-class of CIFAR-10
+### Download 10 trained models on each class of CIFAR-10
 https://drive.google.com/file/d/1P2JJAj-ZhKi_z4jiTY6lWhS8cx8bGDpC/view?usp=sharing
     
-    mv ../../../saved_models.zip .
+    mv saved_models.zip .
     unzip saved_models.zip -d saved_models
 
 ### OOD detection (SOTA, Table 2 results on CIFAR-10)
