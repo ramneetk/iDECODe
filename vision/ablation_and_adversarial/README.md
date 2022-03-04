@@ -55,6 +55,9 @@
     python check_OOD.py --cuda --gpu 0 --net ./cifar10.pth --n 5 --ood_dataset adv_cifar10 --proper_train_size 45000 --adv_data_root adversarial_data/DenseNet/adv_data_DenseNet3_cifar10_BIM.pth
     python check_OOD.py --cuda --gpu 0 --net ./cifar10.pth --n 5 --ood_dataset adv_cifar10 --proper_train_size 45000 --adv_data_root adversarial_data/DenseNet/adv_data_DenseNet3_cifar10_DeepFool.pth
     python check_OOD.py --cuda --gpu 0 --net ./cifar10.pth --n 5 --ood_dataset adv_cifar10 --proper_train_size 45000 --adv_data_root adversarial_data/DenseNet/adv_data_DenseNet3_cifar10_CWL2.pth
+    
+## Optional: Training Resnet-34 on CIFAR-10
+    python train.py --cuda --outf $output dir to save the model$ --gpu $gpu no.$ --proper_train_size 45000
 
     
 
