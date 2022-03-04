@@ -16,7 +16,4 @@
     
     cd ablation_and_adversarial  
     Follow instructions in ablation_and_adversarial/README.md
-   
-## Optional: Train the ResNet-34 model on CIFAR-10 dataset
-    
-   python train.py --cuda --outf $output dir to save the model$ --gpu $gpu no.$ --proper_train_size 45000
+  
