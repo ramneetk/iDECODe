@@ -12,4 +12,7 @@
     cd SOTA 
     Follow instructions in SOTA/README.md
     
-  
+## Ablation and adversarial results (Tables 1, 5 and Figures 1, 2, 3, 4)    
+    
+    cd ablation_and_adversarial  
+    Follow instructions in ablation_and_adversarial/README.md
