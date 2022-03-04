@@ -35,5 +35,6 @@
     python ood_audio/check_ood_non_conf.py --training_id class_set_2 --class_set_name 2 --n 20 --trials 5
     python ood_audio/check_ood_non_conf.py --training_id class_set_3 --class_set_name 3 --n 20 --trials 5
 
-
+### Optional: Training audio models on the four sets
+    python ood_audio/main.py train --mask manually_verified=1 --training_id class_set_$0/1/2/3$ --augment True --relabel False --model vgg --class_set_name $0/1/2/3$ --n_epochs 30 --overwrite True
 
