@@ -1,6 +1,6 @@
 ### Download Imagenet and LSUN datasets, "Imagenet_resize.tar.gz" and "LSUN_resize.tar.gz"
 ## LSUN_resize - https://drive.google.com/file/d/1vD36F8JA0PN6cUGfxrBJmDZ-dKG7F-2Q/view?usp=sharing
-## Imagenet_resize - https://drive.google.com/file/d/1ZSDUTV2z_nSinXampJKsCtwJPSI1IHjM/view?usp=sharing
+## Imagenet_resize - https://drive.google.com/file/d/1LPLrCKRYB4-KRURyAyOvegzJvQpG0VtM/view?usp=sharing
     mkdir data 
     mv Imagenet_resize.tar.gz ./data
     tar -xf data/Imagenet_resize.tar.gz -C ./data
