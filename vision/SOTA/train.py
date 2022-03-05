@@ -241,15 +241,18 @@ def train():
             counter+= 1
             loss.backward()
             optimizer.step() 
-        print("Epoch: {}, Training loss: {}".format(epoch, total_train_loss/counter))
 
-        # do checkpointing
-        #if (epoch+1) % 10 == 0:
-            #torch.save(net.state_dict(), '%s/net_epoch_%d.pth' % (opt.outf, epoch+1))
-            #torch.save(optimizer.state_dict(), '%s/optimizer_epoch_%d.pth' % (opt.outf, epoch+1))
+        test_err  = evaluate(test_dataloader) 
+        train_err = evaluate(train_dataloader) 
+
+        if best_test_err > test_err: # using testset as the validation set, saving the model with minimum error on the validation set
+            torch.save(net.state_dict(), '%s/class%d.pth' % (opt.outf, opt.class_num))
+            torch.save(optimizer.state_dict(), '%s/optimizer_for_class%d.pth' % (opt.outf, opt.class_num))
+            best_test_err = test_err  
+
+        print("Epoch: {},train loss: {} train err: {} test err: {} best test err: {}".format(epoch,total_train_loss/len(train_dataloader), train_err, test_err, best_test_err))
     
-    torch.save(net.state_dict(), '%s/class%d.pth' % (opt.outf, opt.class_num))
-    torch.save(optimizer.state_dict(), '%s/optimizer_for_class%d.pth' % (opt.outf, opt.class_num))
+
 
 def test_saved_model():
     test_err  = evaluate(test_dataloader)        
