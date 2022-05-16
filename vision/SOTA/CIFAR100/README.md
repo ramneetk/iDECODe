@@ -1,3 +1,8 @@
+### This code requires Python==3.8. To install the dependencies please run:
+    conda create -n vision python=3.8
+    conda activate vision
+    pip install -r requirements.txt
+    
 ### Making directory for CIFAR-100 dataset and trained models
      mkdir dataset
      mkdir models
