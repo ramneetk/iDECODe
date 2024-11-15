@@ -1,18 +1,19 @@
 ### Download Imagenet and LSUN datasets, "Imagenet_resize.tar.gz" and "LSUN_resize.tar.gz"
-## LSUN_resize - https://drive.google.com/file/d/1vD36F8JA0PN6cUGfxrBJmDZ-dKG7F-2Q/view?usp=sharing
-## Imagenet_resize - https://drive.google.com/file/d/1LPLrCKRYB4-KRURyAyOvegzJvQpG0VtM/view?usp=sharing
+## LSUN_resize - https://drive.google.com/file/d/1HxYuWDQhbWY4Hx35_kt7jHda7jsHe3BW/view?usp=drive_link 
+## Imagenet_resize - https://drive.google.com/file/d/1nLo4vztWow9JyX_H9dnX0rvSSrpkwsB8/view?usp=drive_link
     mkdir data 
     mv Imagenet_resize.tar.gz ./data
     tar -xf data/Imagenet_resize.tar.gz -C ./data
     mv LSUN_resize.tar.gz ./data
     tar -xf data/LSUN_resize.tar.gz -C ./data
 
-### Download trained model on CIFAR-10 dataset, "cifar10.pth" - https://drive.google.com/file/d/1X6CtJO4RyArTFhC2yHoThU42bTgM47Ud/view?usp=sharing
+### Download trained model on CIFAR-10 dataset, "cifar10.pth" - 
+https://drive.google.com/file/d/1dQf0wqCXPqNXyONzhcLtBd5EjxRyg53v/view?usp=drive_link 
     mv cifar10.pth .
 
 ### Adversarial samples: FGSM, BIM, DeepFool, CW on ResNet and DenseNet architectures
 #### This samples are generated from https://github.com/pokaxpoka/deep_Mahalanobis_detector
-## Download adversarial data - https://drive.google.com/file/d/1aVohIIDejp6xAdcyekinlM0LzU2PKFbY/view?usp=sharing
+## Download adversarial data - https://drive.google.com/file/d/1dYfnR7RGTnQHYwSOlfbTR6kwLzk4yeJZ/view?usp=drive_link
     mv adversarial_data.zip .
     unzip adversarial_data.zip
 
