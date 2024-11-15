@@ -13,7 +13,7 @@
     sh scripts/extract.sh
 
 ### Trained models
- ## Link for downloading the trained audio models - https://drive.google.com/file/d/16id7MZpmvOVJj6zCwgGeDm8d44m7GL-w/view?usp=sharing 
+ ## Link for downloading the trained audio models - https://drive.google.com/file/d/1z7PwOp8GnHUNURLHVJpgN5CkPDZQzfdb/view?usp=drive_link
     mkdir ./_workspace/models
     mv audio_models.zip ./_workspace/models
     unzip ./_workspace/models/audio_models.zip -d  ./_workspace/models
