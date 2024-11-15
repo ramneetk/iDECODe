@@ -8,7 +8,7 @@
     tar -xf data/LSUN_resize.tar.gz -C ./data
 
 ### Download trained model on CIFAR-10 dataset, "cifar10.pth" - 
-https://drive.google.com/file/d/1dQf0wqCXPqNXyONzhcLtBd5EjxRyg53v/view?usp=drive_link 
+https://drive.google.com/file/d/1dQf0wqCXPqNXyONzhcLtBd5EjxRyg53v/view?usp=drive_link
     mv cifar10.pth .
 
 ### Adversarial samples: FGSM, BIM, DeepFool, CW on ResNet and DenseNet architectures
