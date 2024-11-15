@@ -2,7 +2,7 @@
      mkdir dataset
 
 ### Download 10 trained models on each class of CIFAR-10
-https://drive.google.com/file/d/1P2JJAj-ZhKi_z4jiTY6lWhS8cx8bGDpC/view?usp=sharing
+https://drive.google.com/file/d/1GFrb4xEfg6eqcuAN5Th40EKE66Wuu2Yj/view?usp=drive_link 
     
     mv saved_models.zip .
     unzip saved_models.zip -d saved_models
